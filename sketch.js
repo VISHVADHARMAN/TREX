@@ -194,6 +194,7 @@ function reset()
   cloudsGroup.destroyEach();
   
   trex.changeAnimation("running", trex_running);
+  ground.velocityX = -(6 + 3*score/100);
   
   score = 0;
   
